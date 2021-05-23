@@ -1,6 +1,6 @@
 import * as React from "react";
 import { render } from "react-dom";
-
+import AppComponent from "./app.component";
 const rootEl = document.getElementById("root");
 
-render(<p>Hello</p>, rootEl);
+render(<AppComponent />, rootEl);
